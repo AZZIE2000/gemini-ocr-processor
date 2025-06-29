@@ -5,10 +5,9 @@ import {
 } from "@google/generative-ai";
 import * as dotenv from "dotenv";
 import * as path from "path";
-import * as fs from "fs/promises"; // Use promises-based fs
-import sharp from "sharp"; // For image processing (resizing, converting, etc.)
+import * as fs from "fs/promises";
+import sharp from "sharp";
 import { fromPath } from "pdf2pic";
-// import { PDFDocument } from 'pdf-lib'; // If you need to manipulate PDFs directly, though your example focuses on images
 
 // --- Configuration ---
 dotenv.config(); // Load environment variables from .env file
@@ -214,8 +213,6 @@ async function ocrWithGemini(
   }
 }
 
-// --- Large Document Processing ---
-
 /**
  * Processes a large PDF by converting it to images, batching them, and OCRing each batch.
  * @param filePath The path to the PDF file (or image file for demo).
@@ -311,14 +308,14 @@ export async function processPdfsInFolder(
   outputFolder: string
 ): Promise<void> {
   try {
-    await fs.mkdir(outputFolder, { recursive: true }); // Ensure output folder exists
+    await fs.mkdir(outputFolder, { recursive: true });
 
     const files = await fs.readdir(inputFolder);
     const pdfFiles = files.filter((file) => {
       const ext = path.extname(file).toLowerCase();
       return (
         ext === ".pdf" || ext === ".jpg" || ext === ".jpeg" || ext === ".png"
-      ); // Also allow image files for demo
+      );
     });
 
     if (pdfFiles.length === 0) {
@@ -342,50 +339,9 @@ export async function processPdfsInFolder(
         outputFilePath
       );
 
-      //   if (extractedText) {
-      //     console.log(`Harmonizing extracted text for ${file}...`);
-      //     const harmonizedText = await harmonizeDocument(extractedText);
-      //     await fs.writeFile(outputFilePath, harmonizedText, "utf-8");
-      //     console.log(`Harmonized text saved to ${outputFilePath}`);
-
-      //     // Optional: Perform quality check on a random page (for demonstration)
-      //     // const imagePathsForQualityCheck = await convertPdfToImages(inputFilePath, tempImagesDir + '_qc'); // Re-convert for QC if needed
-      //     // if (imagePathsForQualityCheck.length > 0) {
-      //     //     const randomPageIndex = Math.floor(Math.random() * imagePathsForQualityCheck.length);
-      //     //     const randomImagePath = imagePathsForQualityCheck[randomPageIndex];
-      //     //     console.log(`Performing quality check on a random page (${path.basename(randomImagePath)})...`);
-      //     //     // You'd need to extract just that page's text for precise QC, or re-OCR that page.
-      //     //     // For simplicity, we'll just use the first few lines of the harmonized text.
-      //     //     const qualityFeedback = await verifyOcrQuality(randomImagePath, harmonizedText.substring(0, 500));
-      //     //     console.log(`Quality Feedback for ${file}:\n${qualityFeedback}`);
-      //     //     await fs.rm(tempImagesDir + '_qc', { recursive: true, force: true }); // Clean up QC temp
-      //     // }
-      //   }
       console.log(`--- Finished OCR for ${file} ---\n`);
     }
   } catch (error) {
     console.error("An error occurred during folder processing:", error);
   }
 }
-
-// --- How to run this function ---
-// You would typically call this from an `index.ts` or `app.ts` file.
-
-// Example of how to run this directly for testing:
-// (Uncomment the following lines to run when compiled and executed)
-
-// const INPUT_DIR = path.join(__dirname, '..', 'input_files');
-// const OUTPUT_DIR = path.join(__dirname, '..', 'output_files');
-
-// (async () => {
-//     console.log(`Starting OCR process for files in: ${INPUT_DIR}`);
-//     await processPdfsInFolder(INPUT_DIR, OUTPUT_DIR);
-//     console.log(`OCR process completed. Results saved to: ${OUTPUT_DIR}`);
-// })();
-
-// To make it directly runnable as a script, you can add this to your package.json:
-// "scripts": {
-//   "start": "ts-node src/ocrProcessor.ts" // If you install ts-node
-//   "build": "tsc",
-//   "run-ocr": "node dist/ocrProcessor.js" // After building
-// }
