@@ -1,0 +1,31 @@
+
+
+Give me monthly analysis of the licenses and permits issued in the year 2023 and 2024
+
+In 2023, the monthly breakdown of issued licenses and permits is as follows:
+- January: 19 permits expired, 88 licenses active.
+- February: 35 licenses expired, 63 licenses active.
+- March: 52 licenses expired, 18 permits active.
+- April: 26 licenses expired, 44 licenses active.
+- May: 43 licenses expired, 7 permits active.
+- June: 39 licenses expired, 6 permits active.
+- July: 53 licenses expired, 7 permits active.
+- August: 46 licenses expired, 7 permits active.
+- September: 53 licenses expired, 7 permits active.
+- October: 53 licenses expired, 9 permits active.
+- November: 59 licenses expired, 11 permits active.
+- December: 11 permits expired, 11 permits active.
+
+In 2024, the monthly breakdown of issued licenses and permits is as follows:
+- January: 90 licenses expired, 18 permits active.
+- February: 63 licenses active.
+- March: 12 permits active.
+- April: 44 licenses active.
+- May: 138 licenses active.
+- June: 84 licenses active.
+- July: 109 licenses active.
+- August: 109 licenses active.
+- September: 109 licenses active.
+- October: 137 licenses active.
+- November: 159 licenses active.
+- December: 147 licenses active.

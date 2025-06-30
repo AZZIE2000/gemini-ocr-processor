@@ -1,0 +1,114 @@
+
+
+Break down for issued license and permits by year and month showing total of Active and expired
+
+question example:
+- Give me monthly analysis of the licenses and permits issued in the year 2023 and 2024
+- Give me monthly analysis of expired licenses for 2024
+
+| number of issued licenses / permits | type    | License_status | create_year | create_month |
+| :--------------------------------- | :------ | :------------- | :---------- | :----------- |
+| 302                                | license | Expired        | 2022        | 12           |
+| 193                                | permit  | Expired        | 2022        | 12           |
+| 159                                | license | Active         | 2024        | 11           |
+| 154                                | license | Active         | 2025        | 1            |
+| 150                                | license | Active         | 2024        | 3            |
+| 147                                | license | Active         | 2024        | 12           |
+| 138                                | license | Active         | 2024        | 5            |
+| 137                                | license | Active         | 2024        | 10           |
+| 113                                | license | Active         | 2024        | 7            |
+| 109                                | license | Active         | 2024        | 8            |
+| 109                                | license | Active         | 2024        | 9            |
+| 90                                 | license | Expired        | 2024        | 1            |
+| 88                                 | license | Active         | 2025        | 2            |
+| 84                                 | license | Active         | 2024        | 6            |
+| 75                                 | license | Expired        | 2023        | 12           |
+| 65                                 | license | Active         | 2024        | 4            |
+
+<br/>
+<br/>
+
+| number of issued licenses / permits | type    | License_status | create_year | create_month |
+| :--------------------------------- | :------ | :------------- | :---------- | :----------- |
+| 63                                 | license | Active         | 2024        | 2            |
+| 59                                 | license | Expired        | 2023        | 11           |
+| 53                                 | license | Expired        | 2023        | 7            |
+| 53                                 | license | Expired        | 2023        | 10           |
+| 52                                 | license | Expired        | 2023        | 3            |
+| 47                                 | license | Expired        | 2023        | 9            |
+| 46                                 | license | Expired        | 2023        | 8            |
+| 44                                 | license | Expired        | 2024        | 2            |
+| 43                                 | license | Expired        | 2023        | 5            |
+| 39                                 | license | Expired        | 2023        | 6            |
+| 35                                 | license | Expired        | 2023        | 2            |
+| 29                                 | license | Expired        | 2023        | 1            |
+| 26                                 | license | Expired        | 2023        | 4            |
+| 19                                 | permit  | Expired        | 2023        | 1            |
+| 18                                 | permit  | Active         | 2024        | 5            |
+| 18                                 | permit  | Active         | 2024        | 8            |
+| 17                                 | permit  | Active         | 2024        | 10           |
+| 17                                 | permit  | Expired        | 2024        | 1            |
+| 15                                 | permit  | Active         | 2024        | 12           |
+| 14                                 | permit  | Active         | 2025        | 1            |
+| 13                                 | permit  | Active         | 2024        | 11           |
+| 12                                 | permit  | Active         | 2024        | 3            |
+
+<br/>
+<br/>
+
+| number of issued licenses / permits | type   | License_status | create_year | create_month |
+| :--------------------------------- | :----- | :------------- | :---------- | :----------- |
+| 11                                 | permit | Expired        | 2023        | 11           |
+| 11                                 | permit | Expired        | 2023        | 12           |
+| 11                                 | permit | Expired        | 2024        | 2            |
+| 9                                  | permit | Active         | 2024        | 4            |
+| 9                                  | permit | Expired        | 2023        | 10           |
+| 8                                  | permit | Active         | 2025        | 2            |
+| 7                                  | permit | Expired        | 2023        | 5            |
+| 7                                  | permit | Expired        | 2023        | 7            |
+| 7                                  | permit | Expired        | 2023        | 9            |
+| 6                                  | permit | Active         | 2024        | 6            |
+| 6                                  | permit | Active         | 2024        | 9            |
+| 6                                  | permit | Expired        | 2023        | 6            |
+| 4                                  | permit | Active         | 2024        | 2            |
+| 4                                  | permit | Active         | 2024        | 7            |
+| 4                                  | permit | Expired        | 2023        | 3            |
+| 4                                  | permit | Expired        | 2023        | 8            |
+| 2                                  | permit | Expired        | 2023        | 2            |
+| 1                                  | permit | Expired        | 2023        | 4            |
+
+<br/>
+<br/>
+
+Break down for issued license and permits by years, showing total of Active and Expired
+question example: how many active licenses or permits were issued in 2023
+
+| number of issued licenses / permits | license_type | License_status | issue_year |
+| :--------------------------------- | :----------- | :------------- | :--------- |
+| 1274                               | license      | Active         | 2024       |
+| 557                                | license      | Expired        | 2023       |
+| 302                                | license      | Expired        | 2022       |
+| 242                                | license      | Active         | 2025       |
+| 193                                | permit       | Expired        | 2022       |
+| 134                                | license      | Expired        | 2024       |
+| 122                                | permit       | Active         | 2024       |
+| 88                                 | permit       | Expired        | 2023       |
+| 28                                 | permit       | Expired        | 2024       |
+| 22                                 | permit       | Active         | 2025       |
+
+Break down for issued license and permits by years all Active and Expired
+question example: how many licenses or permits were issued in 2023
+
+<br/>
+<br/>
+
+| number of issued licenses / permits | license_type | issue_year |
+| :--------------------------------- | :----------- | :--------- |
+| 1408                               | license      | 2024       |
+| 557                                | license      | 2023       |
+| 302                                | license      | 2022       |
+| 242                                | license      | 2025       |
+| 193                                | permit       | 2022       |
+| 150                                | permit       | 2024       |
+| 88                                 | permit       | 2023       |
+| 22                                 | permit       | 2025       |

@@ -1,0 +1,132 @@
+
+
+As of today, there are a total of 1516 active licenses, which means these licenses are still valid and have not expired. Additionally, 0 licenses have been canceled, meaning they were either revoked or discontinued for various reasons.
+
+Total Licences active and expired together is 2509.
+
+Total Expired licenses are 993.
+
+Total Expired Permits are 309.
+
+There are a total of 453 permit (active and expired).
+
+Ther are a total of Active permit: 144 and 309 are expired.
+
+There are a total of 20861 individual partner.
+
+There are a total of 8312 company partner.
+
+The most commonly granted licenses are associated with the following activities:
+
+| Count of Services | License Type | Service Name |
+| --- | --- | --- |
+| 63 | License | إستيراد نفايات غير خطرة |
+| 56 | License | إجمع ونقل النفايات الخطرة -- تجديد |
+| 23 | License | إستيراد نفايات خطرة |
+| 3 | License | التخلص النهائي من النفايات البلدية الصلبة |
+| 1 | License | التخلص النهائي من النفايات البلدية الصلبة -- تحديد |
+| 36 | License | التخلص النهائي من النفايات الخطرة |
+| 6 | License | التخلص النهائي من النفايات الخطرة -- تجديد |
+| 2 | License | التخلص النهائي من النفايات الخطرة -- توسعة منشأة |
+| 312 | License | الفرز والتجهيز للنفايات القابلة للتدوير |
+| 54 | License | الفرز والتجهيز للنفايات القابلة للتدوير -- تجديد |
+| 7 | License | الفرز والتجهيز للنفايات القابلة للتدوير -- توسعة منشأة |
+| 1 | License | تخزين النفايات |
+| 26 | License | تخزين النفايات الخطرة |
+| 2 | License | تخزين النفايات الخطرة -- تجديد |
+| 23 | License | تصدير نفايات خطرة |
+| 331 | License | تصدير نفايات |
+| 99 | License | تقنيات إدارة النفايات |
+| 25 | License | تقنيات إدارة النفايات -- تحديد |
+| 33 | License | تقنيات معالجة النفايات |
+| 262 | License | جمع ونقل النفايات الخطرة |
+| 13 | License | جمع ونقل النفايات الخطرة -- توسعة منشأة |
+| 583 | License | جمع ونقل النفايات غير الخطرة |
+| 96 | License | جمع ونقل النفايات غير الخطرة -- تحديد |
+| 23 | License | جمع ونقل النفايات غير الخطرة -- توسعة منشأة |
+| 58 | License | معالجة النفايات الخطرة |
+| 22 | License | (معالجة النفايات الخطرة (نسخة |
+| 26 | Permit | إستيراد نفايات خطرة |
+| 205 | Permit | إنشاء منشآت إعادة التدوير |
+| 52 | Permit | (إنشاء منشآت إعادة التدوير (نسخة |
+| 140 | Permit | تصدير نفايات خطرة |
+
+licenses Expiry
+
+Looking ahead, 3 licenses are set to expired today. The 18th of Feb 2025.
+
+batch of 185 licenses will expire within the next month (30 days).
+
+batch of 43 licenses will expire within the next week (7 days).
+
+مجموعة القريان للتجارة والصناعة والمقاولات : Company name partner has maximum number of Active licenses with a total of 33 licenses.
+
+مكتب دار البيئة التقنية للاستشارات البيئية : Company name has the has maximum number of licances with total of 57 licenses
+
+What are the top 5 partners having maximum Active licenses?
+The top 5 companies are as listed:
+
+| | |
+|---|---|
+| مجموعة القريان للتجارة والصناعة والمقاولات | Total | 33 |
+| مكتب دار البيئة التقنية للاستشارات البيئية | Total | 24 |
+| شركة إدارة خدمات البيئة العالمية المحدودة | Total | 22 |
+| السلع الخضراء | Total | 19 |
+| شركة تدوير الجزيرة للتجارة | Total | 17 |
+
+Finally, examining the most common activities associated with granted licenses, the top 5 activities for which licenses have been issued are:
+
+1.  583 - جمع ونقل النفايات غير الخطرة licenses
+2. 480 - تصدير نفايات غير خطرة licenses
+3.  312 - الفرز والتجهيز للنفايات القابلة للتدوير licenses
+4.  262 - جمع ونقل النفايات الخطرة licenses
+5. 205 - إنشاء منشآت إعادة التدوير licenses
+
+This breakdown provides a comprehensive view of the licensing landscape, shedding light on key trends and upcoming renewal needs.
+
+Comprehensive Licensing Data Overview
+Current License Status
+
+*   Total Active Licenses: 1296 licenses remain valid and have not yet expired.
+*   Cancelled Licenses: 0 licenses have been cancelled, meaning no revocations or discontinuations have occurred.
+
+Upcoming Expiry Trends
+
+*   Licenses Expiring in 7 Days: 22 licenses are set to expire within the next week and require urgent renewal.
+*   Licenses Expiring in 30 Days: 183 licenses are approaching expiration within the next month, necessitating proactive renewals.
+
+License Distribution by Entity Type
+
+*   Individual Licenses: 0 licenses have been issued to individuals.
+*   Company Licenses: 2598 licenses have been granted to corporate entities, indicating a strong focus on business-related activities.
+
+Top Licensed Activities
+
+The most commonly granted licenses are associated with the following activities:
+
+1.  583 - جمع ونقل النفايات غير الخطرة licenses
+2. 480 - تصدير نفايات غير خطرة licenses
+3.  312 - الفرز والتجهيز للنفايات القابلة للتدوير licenses
+4.  262 - جمع ونقل النفايات الخطرة licenses
+5. 205 - إنشاء منشآت إعادة التدوير licenses
+
+Categorization & Additional Insights
+
+1. License Lifecycle Categories
+   * Newly Issued Licenses: [Data not available]
+   * Renewed Licenses: [Data not available]
+   * Expired Licenses: 183 licenses will expire within the next month.
+   * Pending Licenses for Approval: [Data not available]
+
+2. License Purpose & Industry Trends
+   * Waste Management Sector: A significant proportion of licenses pertain to waste collection, transportation, and recycling.
+   * Environmental Compliance: Many licenses support environmentally sustainable activities like waste segregation and controlled disposal.
+
+3. Geographical Distribution of Licenses
+   * Regional License Distribution: [Data not available]
+   * Urban vs Rural Distribution: [Data not available]
+
+4. License Holder Profiles
+   * Sole Proprietors: 0 licenses.
+
+*   Large Corporations: 2598 licenses, indicating business-driven regulatory compliance.

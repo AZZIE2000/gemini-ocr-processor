@@ -37,7 +37,7 @@ const model: GenerativeModel = genAI.getGenerativeModel({
 async function convertPdfToImages(
   pdfPath: string,
   outputFolder: string,
-  dpi: number = 300
+  dpi: number = 500
 ): Promise<string[]> {
   const fileExtension = path.extname(pdfPath).toLowerCase();
 
@@ -176,6 +176,9 @@ async function ocrWithGemini(
     1. extract the text in a clean structured way that is understandable and readable.
     2. don't any word that is not in the image.
     3. don't extract the header or footer of the page.
+    4. don't write anything that is not in the image.
+    5. don't write any text to describe that the text from which page it is from, just write the text of the pages in order.
+    6. separate the content between pages with double new empty lines. 
 
     don't output any explanation or introduction. just output the text.
     if there is no text in the image, output an empty string.
@@ -240,7 +243,7 @@ async function processLargeDocument(
 
   // Create batches of images
   // Adjust batch size based on document complexity and Gemini's token limits (image data also counts towards context)
-  const batches = batchImages(imagePaths, 1); // Smaller batch size for safety with image data
+  const batches = batchImages(imagePaths, 5); // Smaller batch size for safety with image data
 
   let fullText = "";
   for (let i = 0; i < batches.length; i++) {
@@ -263,10 +266,10 @@ async function processLargeDocument(
       );
 
       if (batchText.trim()) {
-        fullText += `\n\n----PAGE ${i + 1}-----\n\n${batchText}`;
+        fullText += `\n\n${batchText}`;
       } else {
         console.log(`Batch ${i + 1} returned empty text`);
-        fullText += `\n\n----PAGE ${i + 1}-----\n\n[EMPTY PAGE]`;
+        fullText += ``;
       }
 
       // Add a small delay to avoid rate limiting
